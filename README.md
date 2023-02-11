@@ -147,4 +147,35 @@ All tests should also pass in non-interactive mode: $ echo "python3 -m unittest 
 
 ![image](https://user-images.githubusercontent.com/49359467/218249008-ec46bfd0-7bff-4a77-8510-a6068dd3e60f.png) 
 
-[![SE - HBNB project overview](https://user-images.githubusercontent.com/49359467/218252105-cdb474e1-1099-4053-83a0-542916a1e790.png)](https://www.youtube.com/watch?v=XRH_8w1DEGI&t=1s)
+[![SE - HBNB project overview](https://user-images.githubusercontent.com/49359467/218252105-cdb474e1-1099-4053-83a0-542916a1e790.png)](https://www.youtube.com/watch?v=1mAC9x3aixE)
+
+<em>This project was done by <code><b>Joseph Kakai</b></code> and <code><b>Myra Jarenga</b></code></em>
+
+## Table of contents
+Files/Directories | Description
+------------------|------------
+[README.md](./README.md) | Describes what we did and what each file or directory works.
+[AUTHORS](./AUTHORS) | The file include the name of the contributers.
+[AirBnB_clone](./AirBnB_clone) | Parent directory or repository of which all files are included.
+[tests/](./tests/) | The folder all unittest are included.
+[models/base_model.py](./models/base_model.py) | class <code>BaseModel</code> defines all common attributes/methods for other classes.
+[models/__init__.py](./models/__init__.py) | It is required to make Python treat directories containing the file as packages.
+[console.py](./console.py) | The console is the tool to validate this storage engine.
+[models/user.py](./models/user.py)  |  A class that inherits from BaseModel.
+[models/engine/file_storage.py](./models/engine/file_storage.py) | Manages correctly serialization and deserialization of User.
+[engine/](./engine/) | Is a directory contain the file_storage.py.
+[models/state.py](./models/state.py) | Inherits from base_model.py and Updates states
+[ models/city.py](./ models/city.py) | Inherits from base_model.py and Updates city.
+[models/amenity.py](./models/amenity.py) | Inherits from base_model.py and Updates amenity.
+[models/place.py](./models/place.py) | Inherits from base_model.py and Updates place.
+[models/review.py](./models/review.py) | Inherits from base_model.py and Updates review.
+
+## Student Name
+* Joseph Kakai
+* Myra Jarenga
+
+## Cohort
+* 9
+
+
+### 0x00. AirBnB clone - The console
