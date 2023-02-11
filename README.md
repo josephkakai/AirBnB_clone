@@ -2,12 +2,22 @@
 ![image](https://user-images.githubusercontent.com/49359467/218249127-90128127-1092-43c4-a612-bf8caa5f597c.png)
 ## Background Context
 
-Welcome to the AirBnB clone project!
+## Welcome to the AirBnB clone project!
 Before starting, please read the AirBnB concept page.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XRH_8w1DEGI" title="SE - HBNB project overview" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+## First step: Write a command interpreter to manage your AirBnB objects.
+This is the first step towards building your first full web application: the AirBnB clone. This first step is very important because you will use what you build during this project with all other following projects: HTML/CSS templating, database storage, API, front-end integration…
 
-![image](https://user-images.githubusercontent.com/49359467/218249008-ec46bfd0-7bff-4a77-8510-a6068dd3e60f.png) Holberton Airbnb logo
+Each task is linked and will help you to:
+
+* put in place a parent class (called BaseModel) to take care of the initialization, serialization and deserialization of your future instances
+* create a simple flow of serialization/deserialization: Instance <-> Dictionary <-> JSON string <-> file
+* create all classes used for AirBnB (User, State, City, Place…) that inherit from BaseModel
+* create the first abstracted storage engine of the project: File storage.
+* create all unittests to validate all our classes and storage engine
+
+![image](https://user-images.githubusercontent.com/49359467/218249008-ec46bfd0-7bff-4a77-8510-a6068dd3e60f.png) 
 
 learning to create AirBnB_clone console with testcases
 
