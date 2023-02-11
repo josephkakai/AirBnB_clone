@@ -1,5 +1,5 @@
 # AirBnB_clone
-<image src-"![image](https://user-images.githubusercontent.com/49359467/218249008-ec46bfd0-7bff-4a77-8510-a6068dd3e60f.png)" alt="Holbrton Airbnb logo">
+![image](https://user-images.githubusercontent.com/49359467/218249008-ec46bfd0-7bff-4a77-8510-a6068dd3e60f.png) Holberton Airbnb logo
 
 learning to create AirBnB_clone console with testcases
 
