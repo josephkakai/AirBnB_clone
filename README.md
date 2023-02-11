@@ -1,5 +1,9 @@
 # AirBnB_clone
 ![image](https://user-images.githubusercontent.com/49359467/218249127-90128127-1092-43c4-a612-bf8caa5f597c.png)
+
+## Description
+The console or command interpreter create the data model and allows create, update, destroy, store and persist objects to a file (JSON file). This console will be a tool to validate this storage engine..
+
 ## Background Context
 
 ## Welcome to the AirBnB clone project!
@@ -43,18 +47,18 @@ Do you remember the Shell? It’s exactly the same but limited to a specific use
 * <a href="https://realpython.com/python-testing/">python unittest</a>
 
 ## Learning Objectives
-At the end of this project, you are expected to be able to <span style="color:red">explain to anyone</span>, without the help of Google:
+At the end of this project, you are expected to be able to <code>explain to anyone</code>, without the help of Google:
 
 ## General
 * How to create a Python package
-* How to create a command interpreter in Python using the cmd module
+* How to create a command interpreter in Python using the <code>cmd</code> module
 * What is Unit testing and how to implement it in a large project
 * How to serialize and deserialize a Class
 * How to write and read a JSON file
-* How to manage datetime
-* What is an UUID
-* What is *args and how to use it
-* What is **kwargs and how to use it
+* How to manage <code>datetime</code>
+* What is an <code>UUID</code>
+* What is <code>*args</code> and how to use it
+* What is <code>**kwargs</code> and how to use it
 * How to handle named arguments in a function
 
 ## Copyright - Plagiarism
@@ -65,4 +69,17 @@ At the end of this project, you are expected to be able to <span style="color:re
 * This project is the first step towards building a full web application: the AirBnB clone.
 
 ## Requirements
-The console or command interpreter create the data model and allows create, update, destroy, store and persist objects to a file (JSON file). This console will be a tool to validate this storage engine..
+
+## Python Scripts
+* Allowed editors: vi, vim, emacs
+* All your files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.8.5)
+* All your files should end with a new line
+* The first line of all your files should be exactly #!/usr/bin/python3
+* A README.md file, at the root of the folder of the project, is mandatory
+* Your code should use the pycodestyle (version 2.8.*)
+* All your files must be executable
+* The length of your files will be tested using wc
+* All your modules should have a documentation (python3 -c 'print(__import__("my_module").__doc__)')
+* All your classes should have a documentation (python3 -c 'print(__import__("my_module").MyClass.__doc__)')
+* All your functions (inside and outside a class) should have a documentation (python3 -c 'print(__import__("my_module").my_function.__doc__)' and python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)')
+* A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method (the length of it will be verified)
