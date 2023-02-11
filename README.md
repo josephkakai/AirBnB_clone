@@ -31,7 +31,8 @@ Do you remember the Shell? It’s exactly the same but limited to a specific use
 * learning to create AirBnB_clone console with testcases
 
 ## Resources
-<a href="https://intranet.alxswe.com/rltoken/8ecCwE6veBmm3Nppw4hz5A">cmd module</a>
+* <a href="https://intranet.alxswe.com/rltoken/8ecCwE6veBmm3Nppw4hz5A">cmd module</a>
+
 This project is the first step towards building a full web application: the AirBnB clone.
 
 The console or command interpreter create the data model and allows create, update, destroy, store and persist objects to a file (JSON file). This console will be a tool to validate this storage engine..
