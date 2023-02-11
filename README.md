@@ -32,6 +32,9 @@ Do you remember the Shell? It’s exactly the same but limited to a specific use
 
 ## Resources
 * <a href="https://intranet.alxswe.com/rltoken/8ecCwE6veBmm3Nppw4hz5A">cmd module</a>
+* <a href="http://pymotw.com/2/cmd/">cmd module in depth</a>
+* <b>packages</b> concept page
+* <a href="https://docs.python.org/3.8/library/uuid.html">uuid module</a>
 
 This project is the first step towards building a full web application: the AirBnB clone.
 
