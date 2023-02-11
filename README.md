@@ -9,7 +9,7 @@ The console or command interpreter create the data model and allows create, upda
 ## Welcome to the AirBnB clone project!
 Before starting, please read the AirBnB concept page.
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/XRH_8w1DEGI&t=1s/0.jpg)](https://www.youtube.com/watch?v=XRH_8w1DEGI&t=1s)
+[![SE - HBNB project overview](https://img.youtube.com/vi/XRH_8w1DEGI&t=1s/0.jpg)](https://www.youtube.com/watch?v=XRH_8w1DEGI&t=1s)
 
 ## First step: Write a command interpreter to manage your AirBnB objects.
 This is the first step towards building your first full web application: the AirBnB clone. This first step is very important because you will use what you build during this project with all other following projects: HTML/CSS templating, database storage, API, front-end integration…
