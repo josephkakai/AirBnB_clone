@@ -9,7 +9,7 @@ The console or command interpreter create the data model and allows create, upda
 ## Welcome to the AirBnB clone project!
 Before starting, please read the AirBnB concept page.
 
-[![SE - HBNB project overview](https://youtu.be/XRH_8w1DEGI.jpg)](https://www.youtube.com/watch?v=XRH_8w1DEGI&t=1s)
+[![SE - HBNB project overview]([https://youtu.be/XRH_8w1DEGI.jpg](https://user-images.githubusercontent.com/49359467/218252105-cdb474e1-1099-4053-83a0-542916a1e790.png))](https://www.youtube.com/watch?v=XRH_8w1DEGI&t=1s)
 
 ## First step: Write a command interpreter to manage your AirBnB objects.
 This is the first step towards building your first full web application: the AirBnB clone. This first step is very important because you will use what you build during this project with all other following projects: HTML/CSS templating, database storage, API, front-end integration…
@@ -71,15 +71,79 @@ At the end of this project, you are expected to be able to <code>explain to anyo
 ## Requirements
 
 ## Python Scripts
-* Allowed editors: vi, vim, emacs
+* Allowed editors: <code>vi</code>, <code>vim</code>, <code>emacs</code>
 * All your files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.8.5)
 * All your files should end with a new line
-* The first line of all your files should be exactly #!/usr/bin/python3
-* A README.md file, at the root of the folder of the project, is mandatory
-* Your code should use the pycodestyle (version 2.8.*)
+* The first line of all your files should be exactly <code>#!/usr/bin/python3</code>
+* A <code>README.md</code> file, at the root of the folder of the project, is mandatory
+* Your code should use the pycodestyle (version <code>2.8.*</code>)
 * All your files must be executable
-* The length of your files will be tested using wc
-* All your modules should have a documentation (python3 -c 'print(__import__("my_module").__doc__)')
-* All your classes should have a documentation (python3 -c 'print(__import__("my_module").MyClass.__doc__)')
-* All your functions (inside and outside a class) should have a documentation (python3 -c 'print(__import__("my_module").my_function.__doc__)' and python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)')
+* The length of your files will be tested using <code>wc</code>
+* All your modules should have a documentation (<code>python3 -c 'print(__import__("my_module").__doc__)'</code>)
+* All your classes should have a documentation (<code>python3 -c 'print(__import__("my_module").MyClass.__doc__)'</code>)
+* All your functions (inside and outside a class) should have a documentation (<cide>python3 -c 'print(__import__("my_module").my_function.__doc__</code>)' and <code>python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)</code>')
 * A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method (the length of it will be verified)
+
+## Python Unit Tests
+* Allowed editors: <code>vi</code>, <code>vim</code>, <code>emacs</code>
+* All your files should end with a new line
+* All your test files should be inside a folder <code>tests</code>
+* You have to use the <code>unittest module</code>
+* All your test files should be python files (extension: <code<.py</code>)
+* All your test files and folders should start by <code>test_</code>
+* Your file organization in the tests folder should be the same as your project
+* e.g., For <code>models/base_model.py</code>, unit tests must be in: <code>tests/test_models/test_base_model.py</code>
+* e.g., For <code>models/user.py</code>, unit tests must be in: <code>tests/test_models/test_user.py</code>
+* All your tests should be executed by using this command: <code>python3 -m unittest discover tests</code>
+* You can also test file by file by using this command: <code>python3 -m unittest tests/test_models/test_base_model.py</code>
+* All your modules should have a documentation (<code>python3 -c 'print(__import__("my_module").__doc__</code>)')
+* All your classes should have a documentation (<code>python3 -c 'print(__import__("my_module").MyClass.__doc__</code>)')
+* All your functions (inside and outside a class) should have a documentation (<code>python3 -c 'print(__import__("my_module").my_function.__doc__</code>)' and <code>python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__</code>)')
+We strongly encourage you to work together on test cases, so that you don’t miss any edge case
+
+## GitHub
+There should be one project repository per group. If you clone/fork/whatever a project repository with the same name before the second deadline, you risk a 0% score.
+
+# More Info
+## Execution
+Your shell should work like this in interactive mode:
+
+```
+$ ./console.py
+(hbnb) help
+
+Documented commands (type help <topic>):
+========================================
+EOF  help  quit
+
+(hbnb) 
+(hbnb) 
+(hbnb) quit
+$
+```
+
+But also in non-interactive mode: (like the Shell project in C)
+
+```
+$ echo "help" | ./console.py
+(hbnb)
+
+Documented commands (type help <topic>):
+========================================
+EOF  help  quit
+(hbnb) 
+$
+$ cat test_help
+help
+$
+$ cat test_help | ./console.py
+(hbnb)
+
+Documented commands (type help <topic>):
+========================================
+EOF  help  quit
+(hbnb) 
+$
+```
+All tests should also pass in non-interactive mode: $ echo "python3 -m unittest discover tests" | bash
+
