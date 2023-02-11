@@ -43,7 +43,7 @@ Do you remember the Shell? It’s exactly the same but limited to a specific use
 * <a href="https://realpython.com/python-testing/">python unittest</a>
 
 ## Learning Objectives
-At the end of this project, you are expected to be able to <p style="color:red;">explain to anyone<p>, without the help of Google:
+At the end of this project, you are expected to be able to <p style="color:red">explain to anyone<p>, without the help of Google:
 
 ## General
 * How to create a Python package
