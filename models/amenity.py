@@ -1,12 +1,13 @@
-#!/usr/bin/env python3
-"""amenity calss inhertinting from BaseModel
-"""
-
+#!/usr/bin/python3
+"""Defines the Amenity class."""
 from models.base_model import BaseModel
 
 
 class Amenity(BaseModel):
-    """class amanity inheriting from BaseModel
+    """Represent an amenity.
+
+    Attributes:
+        name (str): The name of the amenity.
     """
 
     name = ""
