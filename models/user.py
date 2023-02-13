@@ -1,5 +1,5 @@
 #!/usr/bin/echo python3
-"""class user"""
+"""class user inheriting from BaseModel"""
 
 from models.base_model import BaseModel
 
