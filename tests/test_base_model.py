@@ -2,7 +2,7 @@
 """Test cases for BestModel module"""
 
 import sys
-from  model.base_model import BaseModel
+from model.base_model import BaseModel
 import unittest
 import uuid
 from datetime import datetime
@@ -10,21 +10,21 @@ sys.path.append('../')
 
 
 class TestBaseModule(unittest.TestCase)
-    """creating test cases for BaseModel"""
+"""creating test cases for BaseModel"""
+
 
     def set uo(self):
-        """set up for the tests"""
+    """set up for the tests"""
 
         self.bm = BaseModle()
 
     def tearDown(self):
         """Tear down nwthod"""
 
-       del self.bm
+        del self.bm
 
     def test_id(self):
         """testing is"""
-
 
         self.assertTrue(uuid.UUID(self.bm.id))
         self.assertEqual(str, type(self.bm.id))
