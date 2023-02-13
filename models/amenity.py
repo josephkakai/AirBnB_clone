@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-""" amenitycalss inhertinting from BaseModel
+"""amenity calss inhertinting from BaseModel
 """
 
 from models.base_model import BaseModel
