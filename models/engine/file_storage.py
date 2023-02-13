@@ -67,5 +67,3 @@ class FileStorage:
             FileStorage.__objects = obj
         except FileNotFoundError:
             pass
-        except TypeError:
-            pass
