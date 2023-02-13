@@ -48,7 +48,7 @@ class FileStorage:
         from models.place import Place
         from models.review import Review
 
-        class_dict = {
+        class_dict  = {
                 "BaseModel": BaseModel,
                 "User": User,
                 "State": State,
@@ -61,9 +61,10 @@ class FileStorage:
         try:
             with open(FileStorage.__file_path, "r") as f:
                 json_data = json.load(f)
-                for key, value in json_data.items():
-                    obj[key] = class_dict[value["__class__"]](**value)
-                FileStorage.__objects = obj
+            for key, value in json_data.items():
+                obj[key] = class_dict[value["__class__"]](**value)
+                
+            FileStorage.__objects = obj
         except FileNotFoundError:
             pass
         except TypeError:

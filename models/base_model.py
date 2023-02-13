@@ -52,4 +52,4 @@ class BaseModel:
             "updated_at": self.updated_at.isoformat(),
             "created_at": self.created_at.isoformat()
             })
-        return
+        return my_dict

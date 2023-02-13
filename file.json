@@ -1,1 +1,1 @@
-{"BaseModel.afb39781-b68e-47ce-a66a-63285dc1cdc1": null}
+{"BaseModel.bfc46d6b-f8cf-4ae2-b4ae-b26689b9946b": {"id": "bfc46d6b-f8cf-4ae2-b4ae-b26689b9946b", "created_at": "2023-02-13T01:57:08.228284", "updated_at": "2023-02-13T01:57:08.228338", "name": "My First Model", "my_number": 89, "__class__": "BaseModel"}}
