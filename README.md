@@ -178,4 +178,5 @@ Files/Directories | Description
 * 9
 
 
-### 0x00. AirBnB clone - The console
+### 0x00. AirBnB clone - The console.
+

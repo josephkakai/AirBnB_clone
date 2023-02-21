@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #!/usr/bin/python3
+=======
+#!/usr/bin/env python3
+>>>>>>> main
 from models import storage
 from models.base_model import BaseModel
 
