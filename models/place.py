@@ -1,9 +1,19 @@
+<<<<<<< HEAD
+#!/usr/bin/env python3
+"""class Place inheriting from BaseModel
+"""
+
+=======
 #!/usr/bin/python3
 """Defines the Place class."""
+>>>>>>> main
 from models.base_model import BaseModel
 
 
 class Place(BaseModel):
+<<<<<<< HEAD
+    """class Place which inherits from BaseModel
+=======
     """Represent a place.
 
     Attributes:
@@ -18,6 +28,7 @@ class Place(BaseModel):
         latitude (float): The latitude of the place.
         longitude (float): The longitude of the place.
         amenity_ids (list): A list of Amenity ids.
+>>>>>>> main
     """
 
     city_id = ""
@@ -25,8 +36,12 @@ class Place(BaseModel):
     name = ""
     description = ""
     number_rooms = 0
+<<<<<<< HEAD
+    max_guests = 0
+=======
     number_bathrooms = 0
     max_guest = 0
+>>>>>>> main
     price_by_night = 0
     latitude = 0.0
     longitude = 0.0
