@@ -1,3 +1,4 @@
+<!--Joseph Kakai-(aka Wanton Raven)-->
 # AirBnB_clone
 ![image](https://user-images.githubusercontent.com/49359467/218249127-90128127-1092-43c4-a612-bf8caa5f597c.png)
 
@@ -8,6 +9,7 @@ The console or command interpreter create the data model and allows create, upda
 
 ## Welcome to the AirBnB clone project!
 Before starting, please read the AirBnB concept page.
+<!--Joseph Kakai-(aka Wanton Raven)-->
 
 [![SE - HBNB project overview](https://user-images.githubusercontent.com/49359467/218252105-cdb474e1-1099-4053-83a0-542916a1e790.png)](https://www.youtube.com/watch?v=XRH_8w1DEGI&t=1s)
 
@@ -24,7 +26,7 @@ Each task is linked and will help you to:
 
 ## What’s a command interpreter?
 Do you remember the Shell? It’s exactly the same but limited to a specific use-case. In our case, we want to be able to manage the objects of our project:
-
+<!--Joseph Kakai-(aka Wanton Raven)-->
 * Create a new object (ex: a new User or a new Place)
 * Retrieve an object from a file, a database etc…
 * Do operations on objects (count, compute stats, etc…)
@@ -58,7 +60,7 @@ At the end of this project, you are expected to be able to <code>explain to anyo
 * What is <code>*args</code> and how to use it
 * What is <code>**kwargs</code> and how to use it
 * How to handle named arguments in a function
-
+<!--Joseph Kakai-(aka Wanton Raven)-->
 ## Copyright - Plagiarism
 * You are tasked to come up with solutions for the tasks below yourself to meet with the above learning objectives.
 * You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.
@@ -125,7 +127,7 @@ But also in non-interactive mode: (like the Shell project in C)
 ```
 $ echo "help" | ./console.py
 (hbnb)
-
+<!--Joseph Kakai-(aka Wanton Raven)-->
 Documented commands (type help <topic>):
 ========================================
 EOF  help  quit
